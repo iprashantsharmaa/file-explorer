@@ -26,7 +26,7 @@ export default function File({
   const [isOpen, setIsOpen] = useState(false);
   const chevronClasses = clsx('!mt-0', { 'rotate-90': isOpen });
   const classes = clsx(
-    'flex items-center space-x-2 hover:bg-hover cursor-auto py-0.5 rounded-md',
+    'flex items-center space-x-2 hover:bg-hover cursor-auto py-0.5 px-1 rounded-md',
     className,
   );
 
